@@ -72,27 +72,27 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "Mac Book pro Landing page",
+    des: "Explore the new Macbook pro with the built in 3D model in our website.",
+    img: "/p1.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "https://mac-landing-page-rho.vercel.app",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Mojito - Cafe Landing Page",
+    des: "Explore the menu and asthetics of the cafe through interactive animations.",
+    img: "/p2.png",
+    iconLists: ["/tail.svg", "/ts.svg", "/gsap.svg"],
+    link: "https://velvet-pour-six.vercel.app",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "PrepWise - AI interview assistant",
+    des: "A real time interview prep website to prepare you for your upcoming interviews.",
+    img: "/p3.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/next.svg"],
+    link: "https://prep-wise-five-khaki.vercel.app",
   },
   {
     id: 4,
@@ -100,38 +100,38 @@ export const projects = [
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://iphone-landing-page-steel.vercel.app",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Hashim was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Hashim enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Hashim is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Hashim was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Hashim enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Hashim is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Hashim was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Hashim enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Hashim is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Hashim was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Hashim enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Hashim is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Hashim was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Hashim enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Hashim is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
   },

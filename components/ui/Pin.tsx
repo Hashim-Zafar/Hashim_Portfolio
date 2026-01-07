@@ -27,6 +27,10 @@ export const PinContainer = ({
   const onMouseLeave = () => {
     setTransform("translate(-50%,-50%) rotateX(0deg) scale(1)");
   };
+  const handleClick = () => {
+    if (!href) return;
+    window.open(href, "_blank"); // or "_self"
+  };
 
   return (
     <div
@@ -34,6 +38,7 @@ export const PinContainer = ({
         "relative group/pin z-50  cursor-pointer",
         containerClassName
       )}
+      onClick={handleClick}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
     >
@@ -68,7 +73,7 @@ export const PinPerspective = ({
 }) => {
   return (
     // change w-96 to w-full
-    <motion.div className="pointer-events-none w-full h-80 flex items-center justify-center opacity-0 group-hover/pin:opacity-100 z-[60] transition duration-500">
+    <motion.div className=" w-full h-80 flex items-center justify-center opacity-0 group-hover/pin:opacity-100 z-[60] transition duration-500">
       <div className=" w-full h-full -mt-7 flex-none  inset-0">
         <div className="absolute top-0 inset-x-0  flex justify-center">
           <a

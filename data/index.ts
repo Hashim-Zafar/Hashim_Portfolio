@@ -102,6 +102,22 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://iphone-landing-page-steel.vercel.app",
   },
+  {
+    id: 5,
+    title: "Automated system for a local business",
+    des: "Developed a custom automation system for a local business, streamlining operations and improving efficiency.",
+    img: "/automated.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://booking-funeel.vercel.app/",
+  },
+  {
+    id: 6,
+    title: "Nailora",
+    des: "A nail salon website with a booking system and a gallery of nail art designs.",
+    img: "/nailora.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://www.northpixel.guru/",
+  },
 ];
 
 export const testimonials = [
